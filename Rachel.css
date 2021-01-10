@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    direction: rtl;
+    padding: 20px 300px;
+    width: 800px;
+    background-color: rgba(144, 184, 224, 0.4);
+}
+
+logo {
+    float: left;
+    border: rgba(248, 101, 85, 0.8) 5px solid;
+    border-radius: 8%;
+    height: 198px;
+    width: 138px;
+}
+
+img {
+    border-radius: 5%;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(248, 101, 85);
+    font-family: guttman-franew;
+    font-size: 250%;
+    margin-right: 50px;
+}
+
+h4 {
+    color: rgb(248, 101, 85);
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.video {
+    align-content: center;
+}
+
+.navigation a,
+.totop a {
+    text-decoration: none;
+    background-color: salmon;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid salmon;
+}
+
+.navigation a:hover,
+.totop a:hover {
+    background-color: rgba(144, 184, 224, 0.01);
+    border: 1px solid salmon;
+}
+
+#about,
+#video,
+#lyrics,
+#rachel,
+#contact {
+    padding-top: 40px;
+}
+
+.totop {
+    padding-top: 30px;
+}
+
+.rachel {
+    text-align: justify;
+}
+
+#about p {
+    font-size: 105%;
+}
